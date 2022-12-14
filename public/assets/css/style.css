@@ -1,0 +1,220 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(126, 63, 63);
+    background: url('/assets/img/bg-2.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #414a4c;
+}
+
+a:hover {
+    color: #414a4c;
+}
+
+/* navbar */
+nav {
+    margin-top: 50px;
+}
+
+.menu_1 .name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    border-right: 3px solid;
+    padding-right: 10px;
+}
+
+.menu_1 .menu_child_1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.menu_2 a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.profile {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.profile .bg img {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.profile .avatar {
+    position: absolute;
+    top: 200px;
+    right: 879px;
+    align-items: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+}
+
+.profile .avatar img {
+    width: 170px;
+    height: 170px;
+}
+
+h1 {
+    position: absolute;
+    top: 410px;
+    right: 879px ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.favorit h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.favorit .card {
+    border: none;
+    /* height: 100px; */
+    /* border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1); */ 
+}
+
+/* about */
+
+.about {
+    margin-top: 20px;
+}
+
+.one .card {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.one .card img {
+    width: 100%;
+    height: 165px;
+    border-radius: 20px;
+}
+
+.one p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.two {
+    margin-top: 50px;
+}
+
+.two .card {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.two .card img {
+    width: 100%;
+    height: 165px;
+    border-radius: 20px;
+}
+
+.two p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    width: 500px;
+    margin-right: 30px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.qoute h3 {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.quote-card {
+    padding: 40px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 10%);
+    position: relative;
+    overflow: hidden;
+    min-height: 120px;
+    border-radius: 20px;
+}
+
+.quote-card p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.quote-card cite {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+.quote-card:before {
+    font-family: Georgia, serif;
+    content: "“";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 5em;
+    color: rgba(238, 238, 238, 0.8);
+    font-weight: normal;
+}
+
+.quote-card:after {
+    font-family: Georgia, serif;
+    content: "”";
+    position: absolute;
+    bottom: -110px;
+    line-height: 100px;
+    right: -32px;
+    font-size: 25em;
+    color: rgba(238, 238, 238, 0.8);
+    font-weight: normal;
+}
+
+
+footer {
+    margin-top: 50px;
+}
+
+footer h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
